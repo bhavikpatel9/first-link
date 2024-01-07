@@ -26,13 +26,14 @@ function App() {
           setMode("dark");
           document.body.style.background = "black";
           showAlert('dark mode is enabled','success');
-         
-
+          document.title = "Textutils - Dark mode"
+          
         }
         else{
           setMode("light");
           document.body.style.background = "white";
           showAlert('dark mode is disabled','success');
+          document.title = "Textutils - Light mode"
       
 
         }
